@@ -2,7 +2,7 @@
 
 body {
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Nunito;
     background: #333;
     color: white;
     font-size: 1.1em;
@@ -23,11 +23,14 @@ hr {
 #nav {
     display: flex;
     height: 10vh;
-    background: #333;
-    /* float: right; */
+    width: 100%;
+    /* background: #333; */
     overflow: hidden;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    z-index: 2;
+    opacity: 0.7;
 }
 
 
@@ -37,10 +40,13 @@ hr {
 
 #nav img {
     height: 100%;
+    filter: drop-shadow(0 0 3px #130043);
+    
 }
 
 .img6 {
     padding-right: 1em;
+    
 }
 
 .img5 {
@@ -79,7 +85,7 @@ p {
     padding: 1em 0;
 }
 
-.btn {
+/* .btn {
     display: inline-block;
     background: #333;
     color: #fff;
@@ -94,16 +100,18 @@ p {
 .btn:hover {
     background: #eaeaea;
     color: #333;
-}
+} */
 
 /* Header */
 #top {
-    height: 90vh;
+    height: 100vh;
     min-height: 450px;
     margin-left: 1em;
     margin-right: 1em;
+    margin-top: 0;
     color: #fff;
     text-align: center;
+    position: relative;
     /* margin-bottom: 2em; */
     
 }
@@ -115,7 +123,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     z-index: -1;
     opacity: 0.3;
     box-shadow: 0px 0 2em .5em #333 inset;
@@ -125,7 +133,14 @@ p {
     padding-top: 40%;
     padding-bottom: 0;
     color: #CF5300;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Merienda One', cursive;
+    font-size: 2em;
+    /* filter: drop-shadow(0 0 5px #130043); */
+}
+
+#top p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
 }
 
 #top .content-wrap
@@ -476,10 +491,20 @@ p {
  
 /* ************************************************************* */
 
+#top {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 #top h1 {
     padding-top: 15%;
+    /* font-family: 'Merienda One', cursive; */
+    font-size: 3em;
+}
+
+#top p {
+    font-size: 1.5em;
 }
 
 
