@@ -319,9 +319,10 @@ p {
     font-weight:normal;
   }
 
-  .post li{
-    list-style:none;
+  .post li p{
+    /* list-style-type:none; */
     justify-content: center;
+    font-family:"Reenie Beanie";
   }
 
   .post {
@@ -332,6 +333,10 @@ p {
     justify-content: center;
    
   }
+
+  .post li {
+    list-style-type: none;
+}
 
   .post li a{
     text-decoration:none;
@@ -703,6 +708,7 @@ p {
         margin: 0;
     }
 
+    
 
 
 
