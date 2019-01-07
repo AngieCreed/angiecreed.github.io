@@ -147,7 +147,7 @@ p {
     font-family: 'Merienda One', cursive;
     font-size: 1.5em;
     letter-spacing: 4px;
-    /* filter: drop-shadow(0 0 5px #130043); */
+    
 }
 
 #top p {
@@ -188,35 +188,28 @@ p {
 /* *******************************New Projects Section* ************************************/
 
 
-.card h2 {
+#cards h2 {
    
     border: 2px solid #CF5300;
     /* width: 200px; */
     padding-left: 5px;
     padding-right: 5px;
-    /* height: 2em; */
+   
 }
 
 .card {
-    margin-bottom: 1.5em;
     transition: all 0.5s;
     justify-content: center;
     width: 200px;
-   
+    margin: auto;
+    margin-bottom: 2em;
+    
     
 }
 
 .card a {
     text-decoration: none;
     color: white;
-    /* width: 150px;
-    height: 150px; */
-    /* padding: 0; */
-    
-
-    
-
-    
 }
 
 .card:hover {
@@ -226,15 +219,12 @@ p {
     
  }
 
- #cards {
-     margin-bottom: 2em;
-     text-align: center;
-    padding: 0;
-    justify-content: center;
-    margin-right: 3.5em;
-    margin-left: 3.5em;
-
+ #cards h2:hover {
+     border: 2px solid lightgray;
+     /* filter: drop-shadow(0 0 2px lightgray); */
  }
+
+
 
 
 
@@ -827,21 +817,24 @@ p {
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
     } */
 
-    .grid-cards {
-
-        padding: 0;
+    #cards  {
         display: grid;
+        padding-bottom: 0;
         grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
-        /* grid-template-columns: repeat(4, 200px); */
         grid-auto-rows: 1fr;
         grid-auto-flow: row;
         grid-gap: 2em;
         margin: auto;
-        justify-items: center;
-    
+
+        justify-content: center;
+        /* margin-left: 3em;
+        margin-right: 3em; */
         
     }
+
     
+    
+  
   
 
 }
