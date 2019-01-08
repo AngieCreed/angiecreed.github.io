@@ -341,7 +341,9 @@ p {
   .post li p{
     /* list-style-type:none; */
     justify-content: center;
-    font-family:"Reenie Beanie",arial,sans-serif;
+    font-family: 'Reenie Beanie', cursive;
+    font-size:180%;
+    padding-bottom: 5px;
   }
 
   .post {
@@ -355,6 +357,7 @@ p {
 
   .post li {
     list-style-type: none;
+    margin:1em;
 }
 
   .post li a{
@@ -375,10 +378,7 @@ p {
    -webkit-transition:-webkit-transform .15s linear;
   }
 
-  .post li{
-    margin:1em;
-    /* float:left; */
-  }
+
 
   .post li h2{
     font-size:150%;
@@ -388,11 +388,7 @@ p {
     font-family:"Reenie Beanie",arial,sans-serif;
   }
 
-  .post li p{
-    font-family:"Reenie Beanie",arial,sans-serif;
-    font-size:180%;
-    padding-bottom: 5px;
-  }
+
 
   .post li:nth-child(1n) a{
     -o-transform:rotate(4deg);
