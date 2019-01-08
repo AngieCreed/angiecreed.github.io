@@ -325,7 +325,7 @@ p {
 
 
 .post-it {
-    font-family:arial,sans-serif;
+    /* font-family:arial,sans-serif; */
     font-size:100%;
     /* margin:3em; */
     /* background:#333; */
@@ -385,7 +385,7 @@ p {
     line-height: 1;
     font-weight:bold;
     padding-bottom:5px;
-    font-family:"Reenie Beanie",arial,sans-serif;
+    font-family: 'Reenie Beanie', cursive;
   }
 
 
