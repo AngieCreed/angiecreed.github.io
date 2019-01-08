@@ -341,7 +341,7 @@ p {
   .post li p{
     /* list-style-type:none; */
     justify-content: center;
-    font-family:"Reenie Beanie";
+    font-family:"Reenie Beanie",arial,sans-serif;
   }
 
   .post {
